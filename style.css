@@ -1,0 +1,39 @@
+/* General styles */
+ body { 
+font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f9f9f9;
+ color: #333; 
+}
+
+header { 
+background-color: #003366;
+ color: white;
+ padding: 20px;
+ text-align: center;
+ }
+
+nav ul {
+ list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px; margin: 0;
+ }
+
+nav a {
+ color: white; text-decoration: none; font-weight: bold; 
+}
+
+nav a:hover { text-decoration: underline; }
+
+main, section { padding: 20px; }
+
+footer { background-color: #003366; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
+
+form { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
+
+input, select, textarea { padding: 8px; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+
+input[type="submit"] { background-color: #003366; color: white; border: none; cursor: pointer; transition: background-color 0.3s; }
+
+input[type="submit"]:hover { background-color: #0055aa; }
+
+ul { line-height: 1.8; }
